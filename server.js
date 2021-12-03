@@ -20,6 +20,8 @@ app.get('/js', () => {
 
 app.use(express.json())
 
+
+
 app.get('/api/robots', (req, res) => {
     try {
         res.status(200).send(botsArr)
